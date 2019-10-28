@@ -35,7 +35,7 @@ img {
 
 .footer ul {
   padding-left: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 .footer a {
@@ -47,16 +47,17 @@ img {
 }
 
 .social {
-  margin: auto;
+  margin-left: auto;
   padding: 0 1rem;
   display: flex;
 }
 
 .social > li {
-  padding: 0 1rem;
+  margin: 0 .5em;
   width: 3em;
 }
 
 .copyright {
+  padding: 0 1rem;
   width: 100%
 }
